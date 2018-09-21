@@ -5,7 +5,10 @@ import os
 import urllib.request
 import re
 import time
-
+'''
+	网络爬虫
+	爬取汽车图片
+'''
 
 def downloadjpg(url,save_path):
 	req2 = urllib.request.Request(url) #爬虫第一层网址
